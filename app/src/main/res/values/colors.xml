@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="burgundy">#7A1F3D</color>
+    <color name="burgundy_dark">#5A1630</color>
+    <color name="slate">#3B4756</color>
+    <color name="slate_light">#8A97A8</color>
+    <color name="background">#F6F5F3</color>
+    <color name="favorite_pink">#E63960</color>
+    <color name="error_red">#D32F2F</color>
+    <color name="text_primary">#2A2A2A</color>
+    <color name="text_secondary">#6B6B6B</color>
+</resources>

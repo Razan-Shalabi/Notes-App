@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <RadioGroup
+        android:id="@+id/radioGroup_sortBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="12dp">
+
+        <RadioButton
+            android:id="@+id/radio_sortByDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/burgundy"
+            android:text="Creation Date" />
+
+        <RadioButton
+            android:id="@+id/radio_sortByAlpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:buttonTint="@color/burgundy"
+            android:text="Alphabetically" />
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/listView_sorted"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>
